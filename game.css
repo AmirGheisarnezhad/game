@@ -275,16 +275,88 @@ margin-bottom: 20px;
 
 /* ------------------------------------------------------------------------------------------- */
 
-.email{
-  background-color: #29E489;
+.email {
   box-shadow: 0px 0px 2px 0px #0000001F;
-
   box-shadow: 0px 4px 8px 0px #00000024;
-
+  overflow: hidden;
 }
 
+.box .em-adr {
+  width: 366px;
+  height: 55px;
+  padding: 0px 0px 7px 0px;
+}
 
+.box .em-adr span {
+  width: 131px;
+  height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+}
 
+.box .em-adr p {
+  width: 141px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+}
+
+.box .steam {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #29292980;
+  width: 366px;
+  height: 55px;
+  padding: 0px 0px 7px 0px;
+}
+
+.box .steam img {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translateX(10px) translateY(70px);
+}
+
+.box .steam div {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.steam .RoboCop{
+  margin-left: -65px;
+}
+.box .steam span {
+ text-align: center;
+ align-items: center;
+
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.box .steam p {
+  margin-top: -14px;
+  width: 100%;
+  height: 14.45px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
 
 
