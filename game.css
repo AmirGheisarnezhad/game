@@ -136,14 +136,16 @@ body {
   background-color: aliceblue;
   margin: 20px auto;
   width: 398px;
-  height: 200px;
+  
 }
 .box {
+  padding: 16px;
   background-color: #3d3d3d;
   box-shadow: 0px 0px 2px 0px #0000001f, 0px 4px 8px 0px #00000024;
   border-radius: 16px;
   border-radius: 16px;
   position: relative;
+  margin-bottom: 15px;
 }
 .box span {
   width: 123px;
@@ -183,6 +185,119 @@ body {
   left: 10px;
   bottom: 10px;
 }
+
+/* ------------------------------------------------------------------------- */
+.agenda{
+  box-shadow: 0px 0px 2px 0px #0000001F;
+
+  box-shadow: 0px 4px 8px 0px #00000024;
+
+}
+.box .agendas{
+margin-bottom: 20px;
+}
+.box .agendas span{
+  width: 180px;
+  height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #FFFFFF;
+
+
+}
+.box .agendas p{
+  width: 90px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #FFFFFF66;
+  opacity: 40%;
+
+}
+.box .notice1{
+  border-left: 2px solid #FFC453;
+  width:  366px;
+  height: 46px;
+  padding: 4px 0px 4px 12px;
+  margin-bottom: 5px;
+}
+.box .notice1 span{
+  width: 63px;
+  height: 22px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #FFFFFF;
+
+}
+.box .notice1 p{
+  width: 107px;
+  height: 16px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+
+}
+.notice2{
+  border-left: 2px solid #29E489;
+  width:  366px;
+  height: 46px;
+  padding: 4px 0px 4px 12px;
+  color: #FFFFFF;
+}
+.notice2 span{
+  width: 138px;
+  height: 22px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+
+}
+.notice2 p{
+  width: 112px;
+  height: 16px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  opacity: 40%;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+.email{
+  background-color: #29E489;
+  box-shadow: 0px 0px 2px 0px #0000001F;
+
+  box-shadow: 0px 4px 8px 0px #00000024;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .left .right {
         display: flex;
