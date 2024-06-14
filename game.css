@@ -1,58 +1,190 @@
-html, body, div, span, applet, object, iframe,
-      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-      a, abbr, acronym, address, big, cite, code,
-      del, dfn, em, img, ins, kbd, q, s, samp,
-      small, strike, strong, sub, sup, tt, var,
-      b, u, i, center,
-      dl, dt, dd, ol, ul, li,
-      fieldset, form, label, legend,
-      table, caption, tbody, tfoot, thead, tr, th, td,
-      article, aside, canvas, details, embed, 
-      figure, figcaption, footer, header, hgroup, 
-      menu, nav, output, ruby, section, summary,
-      time, mark, audio, video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-      }
-      /* HTML5 display-role reset for older browsers */
-      article, aside, details, figcaption, figure, 
-      footer, header, hgroup, menu, nav, section {
-        display: block;
-      }
-      body {
-        line-height: 1;
-      }
-      ol, ul {
-        list-style: none;
-      }
-      blockquote, q {
-        quotes: none;
-      }
-      blockquote:before, blockquote:after,
-      q:before, q:after {
-        content: '';
-        content: none;
-      }
-      table {
-        border-collapse: collapse;
-        border-spacing: 0;
-      }
-      /* ------------------------------------------end of css reset------------------------ */
-      *{
-        margin: 0;
-        padding: 0;
-      }
-      body{
-        font-family: "Inter";
-        background-color: #292929;
-        box-sizing: border-box;
-      }
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ------------------------------------------end of css reset------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter";
+  background-color: #292929;
+  box-sizing: border-box;
+}
+.container {
+  background-color: aliceblue;
+  margin: 20px auto;
+  width: 398px;
+  height: 200px;
+}
+.box {
+  background-color: #3d3d3d;
+  box-shadow: 0px 0px 2px 0px #0000001f, 0px 4px 8px 0px #00000024;
+  border-radius: 16px;
+  border-radius: 16px;
+  position: relative;
+}
+.box span {
+  width: 123px;
+  height: 36px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: #ffffff;
+}
+.box p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  width: 128px;
+  height: 16px;
+  color: #ffffff66;
+  opacity: 40%;
+}
+.box .greeting {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.box .img {
+  width: 155px;
+  height: 155px;
+}
+.box .img img {
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+}
+.box .grade {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
 
-      /* .left .right {
+/* .left .right {
         display: flex;
         flex-direction: column;
         align-items: center;
