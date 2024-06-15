@@ -427,6 +427,47 @@ body {
   line-height: 16px;
   text-align: left;
 }
+/* -------------------------------right part------------------------- */
+.right .feeling{
+  padding: 20px;
+}
+.feeling h1{
+  width: 240px;
+  height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #FFFFFF;
+  
+}
+.feeling p{
+  width: 128px;
+  height: 16px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  
+}
+.right .feeling .group{
+  margin: 8px 0px 0px -10px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.group li{
+  background-color: #292929;
+  padding: 8px;
+  border-radius: 8px;
+  padding: 12px;
+  width: 20%;
+  margin: 10px;
+}
 
 /* .left .right {
         display: flex;
