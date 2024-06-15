@@ -468,7 +468,27 @@ body {
   width: 20%;
   margin: 10px;
 }
+.group .emoji{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+.group .emoji img{
+  width: 32px;
+  height: 32px;
 
+}
+.group .emoji span{
+  width: 95.33px;
+  height: 22px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+   
+}
 /* .left .right {
         display: flex;
         flex-direction: column;
