@@ -133,7 +133,7 @@ body {
   box-sizing: border-box;
 }
 .container {
-  background-color: aliceblue;
+ 
   margin: 20px auto;
   width: 398px;
 }
@@ -488,6 +488,44 @@ body {
   line-height: 22px;
   text-align: center;
    
+}
+/* ------------------------------------------------------------------- */
+.remembers{
+    padding: 20px;
+    text-align: left;
+    align-items: center;
+
+}
+.remembers h1{
+  width: 195px;
+  height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.remembers p{
+  width: 137px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  margin-bottom: 30px;
+  
+}
+.remembers span{
+  width: 366px;
+  height: 64px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #FFFFFF;
+  opacity: 80%;
+  
 }
 /* .left .right {
         display: flex;
