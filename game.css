@@ -136,7 +136,6 @@ body {
   background-color: aliceblue;
   margin: 20px auto;
   width: 398px;
-  
 }
 .box {
   padding: 16px;
@@ -187,55 +186,50 @@ body {
 }
 
 /* ------------------------------------------------------------------------- */
-.agenda{
-  box-shadow: 0px 0px 2px 0px #0000001F;
+.agenda {
+  box-shadow: 0px 0px 2px 0px #0000001f;
 
   box-shadow: 0px 4px 8px 0px #00000024;
-
 }
-.box .agendas{
-margin-bottom: 20px;
+.box .agendas {
+  margin-bottom: 20px;
 }
-.box .agendas span{
+.box .agendas span {
   width: 180px;
   height: 32px;
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
   text-align: left;
-  color: #FFFFFF;
-
-
+  color: #ffffff;
 }
-.box .agendas p{
+.box .agendas p {
   width: 90px;
   height: 16px;
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
   text-align: left;
-  color: #FFFFFF66;
+  color: #ffffff66;
   opacity: 40%;
-
 }
-.box .notice1{
-  border-left: 2px solid #FFC453;
-  width:  366px;
+.box .notice1 {
+  border-left: 2px solid #ffc453;
+  width: 366px;
   height: 46px;
   padding: 4px 0px 4px 12px;
   margin-bottom: 5px;
 }
-.box .notice1 span{
+.box .notice1 span {
   width: 63px;
   height: 22px;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
   text-align: left;
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
-.box .notice1 p{
+.box .notice1 p {
   width: 107px;
   height: 16px;
   font-family: Inter;
@@ -243,16 +237,15 @@ margin-bottom: 20px;
   font-weight: 500;
   line-height: 16px;
   text-align: left;
-
 }
-.notice2{
-  border-left: 2px solid #29E489;
-  width:  366px;
+.notice2 {
+  border-left: 2px solid #29e489;
+  width: 366px;
   height: 46px;
   padding: 4px 0px 4px 12px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.notice2 span{
+.notice2 span {
   width: 138px;
   height: 22px;
   font-family: Inter;
@@ -260,9 +253,8 @@ margin-bottom: 20px;
   font-weight: 400;
   line-height: 22px;
   text-align: left;
-
 }
-.notice2 p{
+.notice2 p {
   width: 112px;
   height: 16px;
   font-family: Inter;
@@ -276,7 +268,7 @@ margin-bottom: 20px;
 /* ------------------------------------------------------------------------------------------- */
 
 .email {
-  box-shadow: 0px 0px 2px 0px #0000001F;
+  box-shadow: 0px 0px 2px 0px #0000001f;
   box-shadow: 0px 4px 8px 0px #00000024;
   overflow: hidden;
 }
@@ -285,6 +277,7 @@ margin-bottom: 20px;
   width: 366px;
   height: 55px;
   padding: 0px 0px 7px 0px;
+  margin-bottom: 0px;
 }
 
 .box .em-adr span {
@@ -304,14 +297,14 @@ margin-bottom: 20px;
   line-height: 16px;
   text-align: left;
 }
-
+/* ------------------------------------------------------------ */
 .box .steam {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid #29292980;
   width: 366px;
   height: 55px;
-  padding: 0px 0px 7px 0px;
+  /* padding: 0px 0px 7px 0px; */
 }
 
 .box .steam img {
@@ -328,13 +321,12 @@ margin-bottom: 20px;
   flex-direction: column;
   overflow: hidden;
 }
-.steam .RoboCop{
+.steam .RoboCop {
   margin-left: -65px;
 }
 .box .steam span {
- text-align: center;
- align-items: center;
-
+  text-align: center;
+  align-items: center;
   width: 100%;
   font-size: 16px;
   font-weight: 400;
@@ -357,19 +349,84 @@ margin-bottom: 20px;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+/* ------------------------------------------------ */
+.box .Github {
+  display: flex;
+  flex-direction: row;
+  width: 366px;
+  height: 55px;
+  /* padding: 0px 0px 7px 0px; */
+  border-bottom: 1px solid #29292980;
+  padding: 10px;
+}
 
+.box .Github .git-img {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 28%;
+  left: 0%;
+  transform: translateX(10px) translateY(70px);
+}
 
+.box .span-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 20px 0 50px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.box .Github .git-span {
+  color: #ffffff;
+  width: 306px;
+  height: 22px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+/* ------------------------------------------------------------------ */
+.h-m {
+  width: 366px;
+  height: 48px;
+}
+.hm-img {
+  position: absolute;
+  top: 55%;
+  left: 3%;
+  transform: translateX(0px) translateY(70px);
+}
+.hm-img img {
+  width: 52px;
+  height: 52px;
+}
+.hm-span-p {
+  width: 318px;
+  height: 36.45px;
+  padding: 0px 0px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 20px 0 43px;
+}
+.box .hm-span {
+  width: 306px;
+  height: 22px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+.box .hm-p {
+  width: 306px;
+  height: 14.45px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+}
 
 /* .left .right {
         display: flex;
