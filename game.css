@@ -175,15 +175,18 @@ body {
   width: 155px;
   height: 155px;
 }
-.box .img img {
+.temperature{
+  display: flex;
+}
+.temperature img {
   position: absolute;
   bottom: 7px;
-  right: 7px;
+  right: 0px;
 }
 .box .grade {
   position: absolute;
   left: 10px;
-  bottom: 10px;
+  bottom: 20px;
 }
 
 /* ------------------------------------------------------------------------- */
